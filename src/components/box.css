@@ -1,0 +1,54 @@
+.App-box{
+  float: left;
+  text-align: center;
+  width: 300px;
+  min-height: 280px;
+  position: relative;    /*parent relative*/
+}
+.round {
+  border: 3px solid #a3a4aa;
+  border-radius: 8px;
+  color: #5a5a5c;
+  display: inline-block;
+  padding: 1% 5%;
+}
+hr {
+  width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+.button2 {
+  background-color: rgba(245, 245, 245, 0.89); 
+  border: 2px solid #e1e1e4;
+  border-radius: 8px;
+  padding: 1% 4%;
+  position: absolute;    /*child absolute*/
+  bottom: 4%;
+  margin-left: -19%;
+  cursor: pointer;
+  font-weight: bold;
+}
+.button2:hover {
+  background-color: white;
+}
+
+.Loc-box{
+  float: left;
+  text-align: center;
+  width: 420px;
+  height: 300px;
+}
+.Loc-img{
+  float: left;
+  width: 400px;
+  height: 250px;
+  margin-left: 20px;
+}
+
+.Chiff-box{
+  float: left;
+  text-align: center;
+  width: 200px;
+  height: 150px;
+  color: whitesmoke;
+}
